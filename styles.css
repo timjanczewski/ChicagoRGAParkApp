@@ -1,0 +1,29 @@
+@media (min-width: 979px) {
+  body {
+    padding-top: 60px;
+  }
+}
+.reserve {
+  max-width: 284px;
+}
+.reserve .input-xlarge {
+  width: 284px;
+  margin-bottom: 10px;
+}
+.nav > li > a.menu-signin,
+.nav > li > a.menu-register {
+  display: none;
+}
+body#signin .menu-register,
+body#register .menu-signin {
+  display: block;
+}
+
+body#signin .menu-reservations,
+body#register .menu-reservations,
+body#signin .menu-myreservation,
+body#register .menu-myreservation,
+body#signin .menu-logout,
+body#register .menu-logout {
+  display: none;
+}
